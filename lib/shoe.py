@@ -15,8 +15,7 @@ class Shoe:
     def set_size(self, value):
         if type(value) == int:
             self.size = value
-        else:
-            print("size must be an integer")
+        print("size must be an integer")
 
     size = property(get_size, set_size)
 
